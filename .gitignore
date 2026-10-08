@@ -1,0 +1,23 @@
+# Environment variables and local secrets
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Node.js dependencies and build output
+node_modules/
+client/dist/
+server/coverage/
+npm-debug.log*
+
+# Python and local virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/
